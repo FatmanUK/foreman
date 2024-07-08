@@ -36,6 +36,11 @@ Medium.without_auditing do
       :path => "http://ftp.freebsd.org/pub/FreeBSD/releases/$arch/$version-RELEASE/",
     },
     {
+      :name => "Void Linux mirror",
+      :os_family => "Voidlinux",
+      :path => "https://repo-fastly.voidlinux.org/current",
+    },
+    {
       :name => "OpenSUSE mirror",
       :os_family => "Suse",
       :path => "http://download.opensuse.org/distribution/leap/$version/repo/oss", :operatingsystems => os_suse
